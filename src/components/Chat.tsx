@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import data from '../../public/data.json';
-import { JobData, YearSummary, ChatResponse } from '../types';
+import { JobData, YearSummary } from '../types';
 
 const Chat: React.FC = () => {
   const [prompt, setPrompt] = useState<string>('');
