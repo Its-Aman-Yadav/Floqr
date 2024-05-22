@@ -1,6 +1,4 @@
 import JobTitlesTable from "../components/JobTitlesTable";
-
-// src/types/index.d.ts
 export interface JobData {
   work_year: number;
   experience_level: string;
